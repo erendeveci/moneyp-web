@@ -19,8 +19,7 @@ const Billing = () => (
         invoicing.
       </h2>
       <p className="font-normal text-[18px] text-dimWhite leading-[28px]">
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
-        neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+      Financial goals and helps them become financially healthier and any income and expense can be tracked.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 m-6 ">

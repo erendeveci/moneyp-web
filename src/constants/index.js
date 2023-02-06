@@ -15,7 +15,7 @@ export const navLinks = [
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Customers",
   },
 ];
 
@@ -25,7 +25,7 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "The finance management app shows in which areas people spend more money and in which areas they need to save",
   },
   {
     id: "feature-2",
@@ -37,9 +37,9 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Wallet Options",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "With multiple wallet options, you can spend and follow in different currencies.",
   },
 ];
 

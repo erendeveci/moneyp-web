@@ -14,8 +14,7 @@ const Testimonials = () => (
         What people are <br className="sm:block hidden" /> saying about us
       </h1>
       <p className="font-normal text-[18px] text-dimWhite max-w-[450px] leading-[32px]">
-        Everything you need to accept card payments and grow your business
-        anywhere on the planet.
+      Everything you need to expense control payments and follow your spend anywhere on the planet.
       </p>
     </div>
 

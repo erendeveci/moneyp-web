@@ -7,7 +7,7 @@ const FeatureCard = ({ id, icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] cursor-pointer ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
-    } feature-card`}
+    } feature-card `}
   >
     <div
       className={`w-[64px]  h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
@@ -30,14 +30,12 @@ const Business = () => {
     <section id="features" className={`${layout.section}`}>
       <div className={`${layout.sectionInfo}`}>
         <h2 className="font-semibold text-white text-[48px]">
-          You do the business,
-          <br className="sm:block hidden" /> we’ll handle the money.
+          You do the spend,
+          <br className="sm:block hidden" /> we’ll track the money.
         </h2>
         <p className={`${styles.paragraph} max-w-[578px] mt-5`}>
           {" "}
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+          This helps people achieve their financial goals and helps them become financially healthier and any income and expense can be tracked.
         </p>
         <Button styles="mt-10" />
       </div>

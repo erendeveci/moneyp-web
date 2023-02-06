@@ -58,6 +58,15 @@
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
+    #8693ab -278.56%,
+    #6d6d6d -78.47%,
+    #bdd4e7 91.61%
+  );
+}
+
+.bg-white-gradient-1 {
+  background: linear-gradient(
+    -168.39deg,
     #ffffff -278.56%,
     #6d6d6d -78.47%,
     #11101d 91.61%
@@ -79,7 +88,6 @@
 .box-shadow {
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
-
 
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -109,8 +117,8 @@
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
-  box-shadow: var(--card-shadow);
+  background-color: #0e2334;
+  transition: background-color ease-out 400ms;
 }
 
 .feedback-container .feedback-card:last-child {
@@ -119,10 +127,12 @@
 
 .feedback-card {
   background: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background-color: #0e2334;
 }
 
 .blue__gradient {
