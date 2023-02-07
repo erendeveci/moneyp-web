@@ -36,7 +36,7 @@ const Footer = () => (
     </div>
     <div className="flex  justify-between w-full md:flex-row flex-col border-t-[1px] border-t-[#3f3e45] pt-6 ">
       <p className=" text-[18px] leading-[27px] text-white ">
-        2021 MoneyP. All Rights Reserved.{" "}
+        2023 MoneyP. All Rights Reserved.{" "}
       </p>
 
       <div className="flex">
